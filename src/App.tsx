@@ -1,8 +1,6 @@
-// import Calculator from './components/Calculator';
-import MyCalc from './components/MyCalc';
-// import ManualCalc from './components/ManualCalc';
-
-import Image from './assets/calc_favicon.png';
+import './styles/App.css';
+import CalculatorFour from './components/Calc4';
+import Image from './assets/calc_favicon_filled.png';
 
 export default function App() {
   return (
@@ -13,9 +11,7 @@ export default function App() {
       </div>
 
       <div className="calc-container">
-        {/* <Calculator /> */}
-        <MyCalc />
-        {/* <ManualCalc /> */}
+        <CalculatorFour />
       </div>
     </>
   );

@@ -4,7 +4,7 @@
 import { useState } from 'react';
 import '../styles/App.css';
 
-export default function Calculator() {
+export default function CalculatorOne() {
   const [input, setInput] = useState<string>('');
 
   const handleButtonClick = (value: string) => {
