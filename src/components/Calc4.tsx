@@ -67,6 +67,8 @@ export default function CalculatorFour() {
       setInput(' ');
     } else if (value === '=') {
       evaluate(input);
+    } else if (value === '?') {
+      setInput('?');
     } else {
       setInput(input + value);
     }

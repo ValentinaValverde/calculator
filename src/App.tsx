@@ -1,5 +1,5 @@
 import './styles/App.css';
-import CalculatorFour from './components/Calc4';
+import CalculatorFive from './components/Calc5';
 import Image from './assets/calc_favicon_filled.png';
 
 export default function App() {
@@ -11,7 +11,7 @@ export default function App() {
       </div>
 
       <div className="calc-container">
-        <CalculatorFour />
+        <CalculatorFive />
       </div>
     </>
   );
