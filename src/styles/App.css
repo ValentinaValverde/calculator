@@ -1,0 +1,91 @@
+/* yes classes and ids */
+
+.nav {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image {
+  width: 50px;
+  height: auto;
+}
+
+.calc-container {
+  display: flex;
+  justify-content: center;
+}
+
+.calculator {
+  background-color: black;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.window {
+  background-color: whitesmoke;
+  width: 100%;
+  height: 150px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  line-height: 0;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: black;
+}
+
+#main-num {
+  font-size: 2em;
+}
+
+#equation {
+  color: #484848;
+  font-style: italic;
+}
+
+/* buttons */
+.long-button {
+  border: none;
+  border-radius: 100px;
+  padding: 0.6em 1.2em;
+  border-radius: 100px;
+  margin: 5px;
+  width: 110px;
+  height: 50px;
+  transition: 0.25s;
+}
+
+.operation-button {
+  border: none;
+  border-radius: 100;
+  padding: 0.6em 1.2em;
+  border-radius: 100px;
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  transition: 0.25s;
+}
+
+.operation-button:hover {
+  background-color: #fe9920;
+  color: white;
+  cursor: pointer;
+}
+
+.operation-button:focus,
+.operation-button:focus-visible {
+  background-color: #fa7921;
+  color: white;
+}
